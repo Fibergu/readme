@@ -1,0 +1,104 @@
+body {
+	background-image: url("background_criminum.jpeg");
+}
+	
+	
+	
+	#page {
+            position:relative;    		
+    }
+    header {
+            background-color:#115EA2;
+            min-height:100px;
+            position:relative;
+			opacity: 0.7;
+			max-width: 1900px;
+    
+    }
+   
+   header img {
+            float:left;
+            display:inline;
+    }
+       
+  /*navigation bar*/ 
+	
+    nav {
+            position:absolute;
+            top:180px;
+            left: 0em;
+            right:0;
+            bottom:0;
+            color:green;
+            min-width:800px;
+            text-align:left;
+            height:20px;
+            padding:10px 20px;
+			white-space: nowrap;
+    }
+    
+    
+    nav a {
+            font-size:14px;
+            margin:10px 0;height:20px;
+            padding:12px 5em;
+            color: white;
+            text-decoration:none;
+			
+    }
+    
+    nav a:hover {
+    background-color:#333;
+    }
+	
+	
+	
+/*stream + chat */	
+	
+	
+	
+#mrplebster_stream {
+	text-align: center;
+	margin-top: 0;
+	width: auto;
+	height: auto;
+	margin-left: 0em;
+}
+#mrplebster_chat {
+	margin-top: 0;
+	position: relative;
+	float: right;
+}
+
+#mrplebster_chat, #mrplebster_stream, #stream_list {
+	display: inline-block;
+}
+
+/*streamlist*/
+
+#stream_list {
+	font-size: 150%;
+	width: 340px;
+	height: 738px;
+	float: left;
+    background: rgba(0, 0, 0, 0.7);
+	text-align: center;
+}
+
+#stream_title {
+	color: white;
+	font-size: 160%;
+}
+
+#stream_list ul {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+	list-style-type: none;
+}
+
+#stream_list li {
+	padding-left: 0px;
+	padding-right: 0px;
+}
